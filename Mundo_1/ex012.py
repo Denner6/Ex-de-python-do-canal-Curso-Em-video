@@ -1,0 +1,6 @@
+print('\033[30m-='*32)
+print('\033[30mEste programa mostra o preço de um produto com desconto de 5%')
+print('\033[30m-='*32)
+produto = float(input('Digite o preço do produto:R$'.strip()))
+novo = produto - (produto * 5 / 100)
+print(f'\033[36mVocê pagará \033[35mR${novo:.2f} \033[36mneste produto')

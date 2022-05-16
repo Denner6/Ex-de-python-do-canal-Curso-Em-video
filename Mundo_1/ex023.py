@@ -1,0 +1,7 @@
+num = int(input('Digite um número: '))
+u = str(num)
+print(f'Analizando o número {num}')
+print(f'A unidade do número {num} é: {u[3]}')
+print(f'A dezena do número {num} é: {u[2]}')
+print(f'A centena do número {num}: {u[1]}')
+print(f'A centena do número {num} é: {u[0]}')
